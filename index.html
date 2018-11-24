@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chuck Norries Random Jokes Generator</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box; 
+    }
+    html {
+        margin: auto 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2 {
+        padding-top: 20px;
+
+    }
+    label {
+        font-size: 20px;
+    }
+    input {
+        width: 130px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        background-color: rgb(93, 93, 100);
+        color: white;
+    }
+    .container {
+        background-color: rgba(196, 191, 191, 0.228);
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        margin: auto;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>Chuck Norris Joke Generator</h2>
+        <form>
+            <div>
+                <label for="number">Number of Jokes</label><br>
+                <input type="number" id="number">
+            </div>
+            <div>
+                <button class="get-jokes">Get Jokes</button>
+            </div>
+        </form>
+        <ul class="jokes"></ul>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
